@@ -82,15 +82,29 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
-    name: "AI & Creative Design",
+    name: "AI, Automation & Design",
     code: "AI",
     skills: [
+      {
+        name: "TikTok Automation",
+        category: "AI",
+        proficiency: 92,
+        tools: ["AI Avatars", "Batch posting", "CapCut", "Scheduling tools"],
+        usage: "End-to-end TikTok content pipeline — 5M+ cumulative views, hundreds of posts",
+      },
+      {
+        name: "AI Avatar Creation",
+        category: "AI",
+        proficiency: 88,
+        tools: ["AI video generators", "Voice synthesis", "Script writing", "CapCut"],
+        usage: "Creating realistic AI avatars for TikTok content at scale",
+      },
       {
         name: "AI Content Automation",
         category: "AI",
         proficiency: 85,
         tools: ["ChatGPT", "Claude", "OpenAI API", "Prompt engineering"],
-        usage: "Automating content creation, copywriting, and research workflows",
+        usage: "Automating scripts, captions, blog drafts, and marketing copy",
       },
       {
         name: "Canva Design",
@@ -98,20 +112,6 @@ export const skillCategories: SkillCategory[] = [
         proficiency: 90,
         tools: ["Canva Pro", "Brand kits", "Templates", "Social media design"],
         usage: "Marketing graphics, social content, presentations, brand collateral",
-      },
-      {
-        name: "AI Workflow Tooling",
-        category: "AI",
-        proficiency: 78,
-        tools: ["n8n", "Zapier", "Make", "Custom scripts"],
-        usage: "Connecting AI models to business workflows, batch content generation",
-      },
-      {
-        name: "SEO Fundamentals",
-        category: "AI",
-        proficiency: 75,
-        tools: ["Meta tags", "Schema markup", "Core Web Vitals", "Sitemap"],
-        usage: "On-page SEO, structured data, performance optimization basics",
       },
     ],
   },

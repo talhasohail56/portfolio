@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Talha Sohail",
-  role: "Frontend Developer / AI Content Automation / Creative Design",
+  role: "Frontend Developer / TikTok Automation / AI Content Creator",
   location: "Karachi, Pakistan",
   timezone: "PKT (UTC+5)",
   status: "Available" as const,
@@ -10,16 +10,16 @@ export const siteConfig = {
   linkedin: "https://linkedin.com/in/talhasohail",
   github: "https://github.com/talhasohail56",
   description:
-    "Frontend-focused developer building clean, performant websites with React and Next.js. Skilled in AI content automation workflows and creative design with Canva. Turning ideas into polished digital experiences.",
+    "Frontend developer building clean, performant websites with React and Next.js. Running TikTok automation systems with AI-generated avatars — hundreds of posts, 5M+ cumulative views. Turning ideas into digital experiences that move.",
   capabilities: [
     "React & Next.js Development",
     "HTML / CSS / Tailwind",
     "Node.js APIs & Tooling",
+    "TikTok Automation (5M+ Views)",
+    "AI Avatar Creation",
     "AI Content Automation",
     "Canva & Creative Design",
     "Responsive Web Design",
-    "Motion & Interaction Design",
-    "SEO Fundamentals",
   ],
   navigation: [
     { label: "Command Center", href: "/", code: "CC-01" },
