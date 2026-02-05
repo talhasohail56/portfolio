@@ -8,6 +8,7 @@ import NavbarHUD from "@/components/hud/NavbarHUD";
 import RightHUD from "@/components/hud/RightHUD";
 import BackgroundEngine from "@/components/graphics/BackgroundEngine";
 import BootSequence from "@/components/intro/BootSequence";
+import CursorGlow from "@/components/ui/CursorGlow";
 
 export default function RootLayout({
   children,
@@ -43,6 +44,7 @@ export default function RootLayout({
         {/* Main Application */}
         <div className={booted ? "opacity-100" : "opacity-0"} style={{ transition: "opacity 0.5s ease" }}>
           <BackgroundEngine />
+          <CursorGlow />
           <NavbarHUD />
           <RightHUD />
 

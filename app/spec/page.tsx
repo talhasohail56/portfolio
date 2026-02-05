@@ -6,6 +6,9 @@ import { experience, principles } from "@/lib/data/experience";
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/motion";
 import SkillMatrix from "@/components/spec/SkillMatrix";
 import MagneticButton from "@/components/ui/MagneticButton";
+import TextReveal from "@/components/ui/TextReveal";
+import GradientBorder from "@/components/ui/GradientBorder";
+import WaveDivider from "@/components/graphics/WaveDivider";
 
 export default function SpecPage() {
   return (
@@ -19,13 +22,13 @@ export default function SpecPage() {
           className="mb-16"
         >
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-1.5 h-1.5 rounded-full bg-neon-cyan animate-glow-pulse" />
+            <div className="relative w-1.5 h-1.5 rounded-full bg-neon-cyan animate-glow-pulse pulse-ring" />
             <span className="text-[10px] font-mono text-white/30 tracking-[0.3em] uppercase">
               Module SP-03 / System Spec
             </span>
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-white mt-3 mb-2">
-            System Specification
+            <TextReveal text="System Specification" />
           </h1>
           <p className="text-sm text-white/30 font-mono max-w-lg">
             Architecture overview, capability matrix, and operational changelog
@@ -46,7 +49,7 @@ export default function SpecPage() {
           <div className="text-[10px] font-mono text-white/20 tracking-[0.2em] uppercase mb-4">
             Identity & Mission
           </div>
-          <div className="glass rounded-xl p-6 md:p-8">
+          <GradientBorder><div className="p-6 md:p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h2 className="text-xl font-bold text-white mb-1">
@@ -77,7 +80,7 @@ export default function SpecPage() {
                 ))}
               </div>
             </div>
-          </div>
+          </div></GradientBorder>
         </motion.section>
 
         {/* Principles */}
@@ -100,7 +103,8 @@ export default function SpecPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1, duration: 0.5 }}
-                className="glass rounded-xl p-5 group hover:border-glow transition-all"
+                className="glass rounded-xl p-5 group hover:border-glow transition-all animate-float"
+                style={{ animationDelay: `${i * 0.5}s` }}
               >
                 <div className="text-2xl mb-3 text-neon-cyan/40 group-hover:text-neon-cyan/70 transition-colors">
                   {principle.icon}
@@ -128,9 +132,11 @@ export default function SpecPage() {
           <div className="text-[10px] font-mono text-white/20 tracking-[0.2em] uppercase mb-4">
             Capability Matrix
           </div>
-          <div className="glass rounded-xl p-6">
-            <SkillMatrix />
-          </div>
+          <GradientBorder gradient="from-neon-green via-neon-cyan to-neon-green">
+            <div className="p-6">
+              <SkillMatrix />
+            </div>
+          </GradientBorder>
         </motion.section>
 
         {/* Changelog (Experience) */}
