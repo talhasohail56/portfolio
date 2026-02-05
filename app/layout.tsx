@@ -33,7 +33,8 @@ export default function RootLayout({
           content="Systems-oriented engineer building high-performance web products with measurable growth outcomes."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className="bg-surface-0 text-white antialiased">
         {/* Boot Sequence */}
