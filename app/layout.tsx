@@ -30,7 +30,7 @@ export default function RootLayout({
         <title>Talha Sohail — Systems Interface</title>
         <meta
           name="description"
-          content="Systems-oriented engineer building high-performance web products with measurable growth outcomes."
+          content="Frontend developer building clean, performant websites with React and Next.js. Skilled in AI content automation and creative design."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

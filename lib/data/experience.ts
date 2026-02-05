@@ -9,55 +9,42 @@ export interface ExperienceEntry {
 
 export const experience: ExperienceEntry[] = [
   {
-    version: "4.2.0",
+    version: "3.0.0",
     date: "2024 — Present",
-    title: "Senior Full Stack Engineer",
-    org: "Independent / Contract",
+    title: "Frontend Developer & AI Automation Specialist",
+    org: "Freelance / Independent",
     type: "feature",
     changes: [
-      "Architecting end-to-end web products for growth-stage startups",
-      "Building AI-powered automation systems reducing manual ops by 80%",
-      "Delivering sub-100ms TTFB across all client deployments",
-      "Implementing conversion engineering frameworks with measurable ROI",
-    ],
-  },
-  {
-    version: "3.5.0",
-    date: "2023 — 2024",
-    title: "Growth Engineer",
-    org: "Series A Startup",
-    type: "feature",
-    changes: [
-      "Led technical SEO overhaul — 520% organic traffic increase",
-      "Built custom analytics platform replacing GA360",
-      "Designed and shipped headless CMS with automated SEO pipeline",
-      "Reduced page load time by 65% through edge caching strategy",
+      "Building modern frontend sites with React, Next.js, and Tailwind",
+      "Designing AI-powered content automation workflows for clients",
+      "Creating brand visuals and marketing collateral with Canva",
+      "Deploying performant web projects on Vercel with optimized SEO",
     ],
   },
   {
     version: "2.0.0",
-    date: "2022 — 2023",
-    title: "Full Stack Developer",
-    org: "Digital Agency",
+    date: "2023 — 2024",
+    title: "Frontend Developer",
+    org: "Freelance / Agency Work",
     type: "refactor",
     changes: [
-      "Shipped 12 client projects across e-commerce, SaaS, and media",
-      "Established component library used across all agency projects",
-      "Introduced CI/CD pipelines reducing deployment time by 90%",
-      "Mentored junior developers on TypeScript and React patterns",
+      "Shipped multiple client websites using Next.js and React",
+      "Built responsive, mobile-first layouts with Tailwind CSS",
+      "Integrated AI tools into content production pipelines",
+      "Managed project deployments on Vercel and Netlify",
     ],
   },
   {
     version: "1.0.0",
-    date: "2021 — 2022",
-    title: "Frontend Developer",
-    org: "Tech Consultancy",
+    date: "2022 — 2023",
+    title: "Web Developer",
+    org: "Self-taught / Early Projects",
     type: "init",
     changes: [
-      "Built responsive web applications using React and Next.js",
-      "Implemented pixel-perfect designs from Figma specifications",
-      "Learned performance optimization and Core Web Vitals",
-      "Contributed to open-source component libraries",
+      "Learned HTML, CSS, and JavaScript fundamentals from scratch",
+      "Built first React and Next.js applications",
+      "Started using Node.js for basic API development",
+      "Developed design skills with Canva for client projects",
     ],
   },
 ];
@@ -72,7 +59,7 @@ export const principles = [
   {
     name: "Performance",
     description:
-      "Speed is a feature. Sub-second loads, minimal bundles, edge-first architecture.",
+      "Speed is a feature. Fast loads, minimal bundles, clean code that works.",
     icon: "⚡",
   },
   {
@@ -84,7 +71,7 @@ export const principles = [
   {
     name: "Velocity",
     description:
-      "Ship fast, measure everything, iterate with data. Momentum over perfection.",
+      "Ship fast, learn constantly, iterate with feedback. Progress over perfection.",
     icon: "→",
   },
 ];
