@@ -1,0 +1,30 @@
+export const siteConfig = {
+  name: "Talha Sohail",
+  role: "Full Stack Engineer / Growth Engineer / Motion Systems",
+  location: "Karachi, Pakistan",
+  timezone: "PKT (UTC+5)",
+  status: "Available" as const,
+  workMode: "Remote" as const,
+  responseSLA: "< 24h",
+  email: "talha@example.com",
+  linkedin: "https://linkedin.com/in/talhasohail",
+  github: "https://github.com/talhasohail",
+  description:
+    "Systems-oriented engineer building high-performance web products with measurable growth outcomes. Focused on conversion engineering, motion systems, and full-stack architecture.",
+  capabilities: [
+    "Full-Stack Architecture",
+    "Performance Engineering",
+    "SEO & Growth Systems",
+    "Motion & Interaction Design",
+    "CI/CD & DevOps Pipelines",
+    "AI Integration & Automation",
+    "Analytics Instrumentation",
+    "Conversion Optimization",
+  ],
+  navigation: [
+    { label: "Command Center", href: "/", code: "CC-01" },
+    { label: "Deployments", href: "/deployments", code: "DP-02" },
+    { label: "System Spec", href: "/spec", code: "SP-03" },
+    { label: "Handshake", href: "/handshake", code: "HS-04" },
+  ],
+};
