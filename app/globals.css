@@ -18,6 +18,7 @@
 
 * {
   box-sizing: border-box;
+  cursor: none !important;
 }
 
 html {
@@ -255,6 +256,13 @@ body {
   margin-left: 2px;
 }
 
+/* Restore native cursor on touch devices and reduced motion */
+@media (pointer: coarse) {
+  * {
+    cursor: auto !important;
+  }
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -264,6 +272,10 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  * {
+    cursor: auto !important;
   }
 
   .scan-line,
